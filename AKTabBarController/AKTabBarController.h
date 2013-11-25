@@ -24,7 +24,15 @@
 #import "AKTabBar.h"
 #import "AKTab.h"
 
+@class AKTabBarController;
+@protocol AKTabBarControllerDelegate
+@required
+- (void)didSelectTabAtIndex:(NSInteger)index;
+@end
+
 @interface AKTabBarController : UIViewController <AKTabBarDelegate, UINavigationControllerDelegate>
+
+@property (assign) id <AKTabBarControllerDelegate> delegate;
 
 // View Controllers handled by the tab bar controller.
 @property (nonatomic, strong) NSMutableArray *viewControllers;

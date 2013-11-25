@@ -369,6 +369,7 @@ typedef enum {
         [[self navigationItem] setTitle:[vc title]];
         self.selectedViewController = vc;
     }
+    [_delegate didSelectTabAtIndex:index];
 }
 
 #pragma mark - Rotation Events
