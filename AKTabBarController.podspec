@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version  = '1.1.0'
   s.license  = 'MIT'
   s.summary  = 'AKTabBarController is an adaptive and customizable tab bar for iOS.'
-  s.homepage = 'https://github.com/alikaragoz/AKTabBarController'
+  s.homepage = 'https://github.com/bespalown/AKTabBarController'
   s.author   = { 'Ali Karagoz' => 'mail@alikaragoz.net' }
   s.source   = { :git => 'https://github.com/bespalown/AKTabBarController.git', :tag => '1.1.0' }
   s.platform = :ios
