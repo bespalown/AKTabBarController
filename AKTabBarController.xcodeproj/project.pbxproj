@@ -45,6 +45,10 @@
 		34F496DD173FD4D300A9685B /* UINavigationController+AKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AKTabBarController.m"; sourceTree = "<group>"; };
 		34F496DE173FD4D300A9685B /* UIViewController+AKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = "UIViewController+AKTabBarController.h"; sourceTree = "<group>"; };
 		34F496DF173FD4D300A9685B /* UIViewController+AKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AKTabBarController.m"; sourceTree = "<group>"; };
+		666DA1891843483700FA631C /* AKTabBarController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AKTabBarController.podspec; sourceTree = "<group>"; };
+		666DA18A1843483700FA631C /* CHANGES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES.md; sourceTree = "<group>"; };
+		666DA18B1843483700FA631C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		666DA18C1843483700FA631C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,10 @@
 		34F496B9173FD43300A9685B = {
 			isa = PBXGroup;
 			children = (
+				666DA1891843483700FA631C /* AKTabBarController.podspec */,
+				666DA18A1843483700FA631C /* CHANGES.md */,
+				666DA18B1843483700FA631C /* LICENSE */,
+				666DA18C1843483700FA631C /* README.md */,
 				34F496C7173FD43300A9685B /* AKTabBarController */,
 				34F496C4173FD43300A9685B /* Frameworks */,
 				34F496C3173FD43300A9685B /* Products */,
