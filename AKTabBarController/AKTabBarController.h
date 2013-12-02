@@ -125,4 +125,7 @@
 // Refresh the Tab Bar
 - (void)loadTabs;
 
+//Open current Tab Programmatically
+- (void) openTab:(NSInteger)index;
+
 @end

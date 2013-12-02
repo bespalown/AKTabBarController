@@ -372,6 +372,11 @@ typedef enum {
     [_delegate didSelectTabAtIndex:index];
 }
 
+- (void) openTab:(NSInteger)index
+{
+    [self tabBar:tabBar didSelectTabAtIndex:index];
+}
+
 #pragma mark - Rotation Events
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
